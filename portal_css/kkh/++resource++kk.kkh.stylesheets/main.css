@@ -1,0 +1,789 @@
+/* Stylesheet for the 'v5' Plone theme */ 
+
+/*
+  This file is based on the ploneCustom.css.dtml shipped with Plone.
+
+  <dtml-with base_properties> (do not remove this)
+  <dtml-call "REQUEST.set('portal_url', portal_url())"> (not this either)
+*/
+
+body {
+	background: url("++resource++kk.kkh.images/bg.gif") repeat 0px 0px transparent;
+}
+
+a {
+	outline: none;
+}
+
+
+hr { 
+	background-color: white;
+	border: 1px dotted #cccccc;
+	border-width: 0px 0px 1px 0px;
+	color: white;
+	height:1px;
+	margin:0.5em 0 1em;
+}
+
+.hiddenStructure {
+	background:transparent none repeat scroll 0;
+	border:medium none;
+	display:block;
+	height: 0px;
+	margin:-1px 0 0 -1px;
+	overflow:hidden;
+	padding:0;
+	width:1px;
+}
+
+.visualClear {
+	height: 0px !important;
+}
+
+#clear-space-before-portal-columns {
+	height: 0px !important;
+} 
+
+.fieldRequired {
+	background:transparent url("++resource++kk.ck.images/required.gif.html") no-repeat scroll left center;
+	color:#76797C;
+	padding:0 0 0 8px;
+	font-family: Georgia;
+	font-style: italic;
+	font-size: 90%;
+}
+
+#visual-site-border {
+	width: 100%;
+	margin: 0px auto 0px auto;
+	background: transparent;  
+	padding: 0px 0px 0px 0px;
+	border: 0px solid red;
+}
+
+#visual-site-wrapper {
+	margin: 0px auto 0px auto;
+	width: 820px;
+	background: url("++resource++kk.kkh.images/border.gif") repeat 0px 0px transparent;
+} 
+
+#portal-top {
+	margin: 0px;
+	padding: 0px;
+}
+
+#portal-header {
+	background: transparent;
+}
+
+/***** portal-siteactions *****/ 
+
+#portal-siteactions {
+	background-color: transparent;
+	float: left;
+	line-height: normal;
+	list-style-image: none;
+	list-style-type: none;
+	margin: 27px 0px 0px 160px;
+	padding: 0px;
+	white-space: nowrap;
+	border: 0px solid black;
+	text-transform: none;
+	font-size: 90%;
+	font-weight: normal;
+}
+
+* html #portal-siteactions {
+	font-size: 90%;
+}
+
+*+html #portal-siteactions {
+	font-size: 90%;
+}
+
+#portal-siteactions li a:link {
+	background: url("++resource++kk.ck.images/bg_siteactions.gif.html") no-repeat scroll top right transparent;
+	border: 0px;
+	color: #cccccc;
+	margin-right: 0.2em;
+	padding: 0px 5px 0px 0px;
+	text-decoration:none;
+	text-transform: none;
+}
+
+#portal-siteactions li a:visited {
+	background: url("++resource++kk.ck.images/bg_siteactions.gif.html") no-repeat scroll top right transparent;
+	border: 0px;
+	color: #cccccc;
+	margin-right: 0.2em;
+	padding: 0px 5px 0px 0px;
+	text-decoration:none;
+	text-transform: none;
+}
+
+#portal-siteactions li a:hover {
+	background: url("++resource++kk.ck.images/bg_siteactions.gif.html") no-repeat scroll top right transparent;
+	border: 0px;
+	color: #cccccc;
+	margin-right: 0.2em;
+	padding: 0px 5px 0px 0px;
+	text-decoration:none;
+	text-transform: none;
+}
+
+#portal-siteactions #siteaction-sendto a {
+	background: transparent;
+	border: 0px;
+}
+
+
+.portlet-search-gadget {
+	border: 0px dotted #cc6633 !important;
+	padding: 10px;
+	background: white;
+	width: 80px;
+	color: #663333;
+}
+
+.portlet-search-gadget input { 
+	color: white
+}
+
+input.searchButton {
+	background: transparent;
+	border: 0px dotted #cc6633 !important;
+	color: #663333;
+	cursor: pointer;
+	font-size: 100%;
+	margin-bottom: 0px !important;
+	padding: 5px;
+	text-transform: none;
+	font-family: Georgia;
+	font-style: italic;
+}
+
+/***** end of global-actions *****/
+
+#global-languageselector {
+	display: none;
+}
+
+#flash {
+	width: 752px;
+	height: 155px;
+	border: 0px solid green;
+	margin: 0px 0px 0px 35px;
+	padding: 0px;
+	background: transparent;
+	text-align: center;
+}
+
+.dline {
+	background: url("++resource++kk.ck.images/dotted.gif.html") repeat-x 0px 0px transparent;
+}
+
+#portal-breadcrumbs {
+	border: 0px;
+	padding: 10px 0px 0px 0px;
+	margin: 10px 0px 20px 50px;
+	background: transparent;
+	color: #666666;
+	text-transform: none;
+	font-family: Georgia;
+	font-style: italic;
+}
+
+* html #portal-breadcrumbs {
+	border: 0px;
+	padding: 10px 0px 0px 35px;
+	margin: 6px 0px 0px 0px;
+	background: url("++resource++kk.ck.images/bg_vcw.gif.html") repeat-y 0px 1px transparent;
+}
+
+#visual-column-wrapper {
+	float: left;
+	margin-right: -<dtml-var columnTwoWidth missing="16em">;
+	background: transparent; 
+}
+
+#portal-columns {
+	width: 820px;
+	border: 0px solid red;
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	background: transparent;
+}
+
+#portal-column-one {
+	float: left;
+	overflow: hidden;
+	margin: 0px 30px 0px 50px !important;
+	background: transparent !important;
+	border: 0px solid red;
+	width: 170px;
+}
+
+#portal-column-two, #portal-column-content {
+  background: transparent;
+}
+
+#portal-column-two {
+	display: none;
+}
+
+
+* html #portal-column-two {
+	display: none;
+}
+
+*+html #portal-column-two {
+	display: none;
+}
+
+#portal-column-content {
+	margin: 0px 0px 0px 35px;
+	padding: 0px 0px 0px 0px;
+	border: 0px solid black;
+}
+
+* html #portal-column-content {
+	float: left;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 35px;
+	width: 540px;
+	border: 0px solid black;
+}
+
+*+html #portal-column-content {
+	float: left;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 35px;
+	width: 540px;
+	border: 0px solid black;
+}
+
+#portal-column-content .visualPadding {
+	padding: 0px !important;
+	margin: 0px;
+}
+
+.template-search #portal-column-content {
+	margin: 0px 0px 0px 0px !important;
+	padding: 0px 0px 50px 200px;
+	border: 0px solid black;
+}
+
+#portal-column-one .visualPadding {
+	padding: 0px !important;
+}
+
+#portal-column-two .visualPadding {
+	padding: 18px 0px 0px 0px !important;
+}
+
+/*** content definitionen ***************************************/ 
+
+.context, .documentEditable * .standalone, .formControls .actionButtons .button, .documentEditable * .context {
+	background: transparent;
+	border: 1px dotted #663333;
+	color:  #663333;
+	cursor: pointer;
+	font-size: 100%;
+	padding: 10px 10px 10px 10px;
+	text-transform: none;
+	font-family: Georgia;
+	font-style: italic
+}
+
+#formfolder-base-edit {
+	margin: 0px 40px 0px 0px;
+}
+
+.portalMessage {
+	margin: 0px 50px 0px 0px;
+}
+
+.contentActions {
+	margin: 0px 50px 0px 0px;
+}
+
+.contentViews {
+	margin: 0px 50px 0px 0px;
+}
+
+#document-action-print {
+	font-family: Georgia;
+	font-style: italic;
+}
+
+.georgia {
+	font-family: Georgia;
+	font-style: italic;
+	font-weight: normal;
+	font-size: 110%;
+}
+
+.georgiaBold {
+	font-family: Georgia;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 110%;
+}
+
+#parent-fieldname-title span {
+	text-transform: none;
+}
+
+#region-content {
+	border: 0px solid black;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.discreet {
+	font-family: Georgia;
+	font-style: italic;
+}
+
+#content a[href^="http:"], 
+#content a.link-external {
+	background: transparent;
+	padding: 0px;
+	font-family: Georgia;
+	font-style: italic;
+}
+
+#content a[href^="mailto:"], 
+#content a.link-mailto {
+	background: transparent;
+	padding: 0px;
+	font-family: Georgia;
+	font-style: italic;
+}
+
+.documentActions {
+	border: 0px solid black;
+	padding: 0px !important;
+	margin: -4px 0px 0px 0px; 
+}
+
+#content {
+	margin: 0px 50px 0px 0px !important;
+	padding: 0px !important;
+	background: transparent;
+}
+
+.documentContent {
+	margin: 0px !important;
+	padding: 0px 0px 0px 0px !important;
+	background: transparent;
+}
+
+.documentContent ul {
+	list-style-type: none;
+	list-style-image: none;
+	margin: 10px 10px 10px 0px;
+}
+
+.documentContent li {
+	background: url("++resource++kk.ck.images/blue_arrow.gif.html") no-repeat 0px 7px transparent;
+	padding: 0px 0px 0px 10px;
+	margin: 0px 0px 5px 0px;
+}
+
+.documentContent a:link {
+	border: 0px !important;
+	text-decoration:none;
+}
+
+.documentContent a:visited {
+	border: 0px !important;
+	text-decoration:none;
+}
+
+.documentContent a:hover {
+	border: 0px !important;
+	text-decoration: underline;
+}
+
+.documentByLine {
+	margin: 0px 0px 20px 0px;
+}
+
+.documentAuthor {
+	display: none;
+} 
+
+.link-external {
+	border: 0px !important;
+	background: transparent;
+	padding: 0px;
+	margin: 0px;
+}
+
+.link-external a:link {
+	border: 0px !important;
+	text-decoration: none;
+	background: transparent;
+}
+
+.link-external a:visited {
+	border: 0px !important;
+	text-decoration: none;
+	background: transparent;
+}
+
+.link-external a:hover {
+	border: 0px !important;
+	text-decoration: underline;
+	background: transparent;
+}
+
+.link-mailto {
+	background: transparent;
+	padding: 0px;
+}
+
+h1 {
+	border: 0px !important;
+	font-size: 120%;
+	padding: 10px 0px 10px 0px;
+}
+
+h2, h3 {
+	border: 0px !important;
+	font-size: 140%;
+	padding: 10px 0px 10px 0px;
+}
+
+.tileItem {
+	border: 0px dotted #798c94;
+	border-width: 0px 0px 1px 0px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 20px 0px; 
+}
+
+.tileItem .tileHeadline {
+	padding: 0px 0px 0px 0px !important;
+	border: 0px solid black !important;
+	text-transform: none;
+	color: #663333;
+	font-family: Georgia;
+}
+
+.tileHeadline a:link {
+	color: #663333 !important;	
+}
+
+.tileHeadline a:visited {
+	color: #663333 !important;	
+}
+
+.tileHeadline a:hover {
+	color: #663333 !important;	
+}
+
+.tileItem .documentByLine {
+	display: none;
+}
+
+.tileFooter {
+	text-align: right;
+	background: transparent;
+	padding: 10px 10px 15px 0px;
+}
+
+.stx td,
+#region-content .plain td {
+	vertical-align: top;
+	padding: 10px;
+	border: 0px !important;
+}
+
+table.plain, table.plain td, table.plain th {
+	border: 0px !important;
+	border-collapse: collapse;
+	padding: 10px;
+}
+
+
+.documentFirstHeading {
+	background: url("++resource++kk.ck.images/dfh.gif.html") no-repeat 0px 0px transparent;
+	border: 0px solid red;
+	color: black;
+	font-size: 160%;
+	font-weight: normal;
+	margin: 30px 0px 20px 0px;
+	text-align: left;
+	padding: 0px 0px 10px 0px;
+	text-transform: none;
+	font-family: Georgia;
+	font-style: italic;
+}
+
+.template-logged_out .documentFirstHeading,
+.template-logged_out .documentDescription {
+	margin: 30px 0px 20px 200px;
+}
+
+#login-form {
+	margin: 50px 0px 50px 200px;
+}
+
+legend {
+	background: transparent none repeat scroll 0 0;
+}
+
+.documentDescription {
+	padding: 10px 0px 10px 0px;
+	font-family: Georgia;
+	font-style: italic;
+	font-weight: normal;
+	color: #666666;
+}
+
+.documentModified {
+	font-family: Georgia;
+	font-style: italic;	
+}
+
+.tileFooter a:link {
+	border: 0px !important;
+}
+
+.tileFooter a:visited {
+	border: 0px !important;
+}
+
+.tileFooter a:hover {
+	border: 0px !important;
+	text-decoration: underline;
+}
+
+.section-referenzen .link-parent {
+	display: none;
+}
+
+#slideshow-wrapper {
+	padding: 0px !important;
+	margin: 0px; 
+	text-align: left;
+}
+
+.slideshowfolder-thumbnails {
+	bottom: -100px;
+	height: 100px;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	margin: 20px 0px 0px 0px !important;
+}
+
+.slideshowfolder-thumbnails li {
+	background: transparent;
+	padding: 0px;
+}
+
+.slideshowfolder-captions {
+	-x-system-font: none;
+	background: #000000 none repeat scroll 0 0;
+	bottom: 0;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-size-adjust: none;
+	font-stretch: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	left: 0;
+	line-height: 22px;
+	overflow: hidden;
+	position: absolute;
+	width: 100%;
+	z-index: 10000;
+}
+
+.slideshowfolder-captions-text {
+	font-family: Georgia;
+	font-style: italic;
+	margin: 10px 0px 10px 20px;
+	padding: 0px 0px 0px 10px !important;
+	background: url("++resource++kk.ck.images/grey_arrow.gif.html") no-repeat 0px 7px transparent;	
+}
+
+.image-left {
+	border: 0px !important;
+	padding: 0px 0px 0px 0px;
+}
+
+.tileItem .image-left {
+	border: 0px !important;
+	padding: 2px 0px 0px 0px;
+}
+
+.visualIEFloatFix {
+    height: 0.1%;
+}
+
+.listingWrapper {
+	border: 0px solid red;
+}
+
+.listingImage {
+	float: left;
+	margin: 3px 20px 20px 0px;
+}
+
+.listingImage img {
+	width: 83px !important;
+	height: 83px !important;
+}
+
+.listingItem {
+	border: 0px solid black;
+	float: left;
+	text-align: top;
+	padding: 0px;
+	margin: 0px;
+}
+
+.listingItem .tileHeadline {
+	border: 1px solid black;
+	text-align: top;
+	padding: 0px;
+	margin: 0px 0px 10px 0px;
+}
+
+.autoFlowPlayer {
+	border: 0 none;
+	display: block;
+	height: 250px;
+	width: 251px;
+}
+
+.autoFlowPlayer.audio {
+	border:0 none;
+	display:block;
+	height: 189px;
+	width: 251px;
+	border: 0px solid red;
+	padding: 0px;
+	margin: 0px;
+}
+
+.newsImage {
+	border: 0px solid #CCCCCC;
+}
+
+.template-accessibility-info a {
+	font-family: Georgia;
+	font-style: italic;
+}
+
+.template-accessibility-info ul {
+	font-family: Georgia;
+	font-style: italic;
+}
+
+#category {
+   	font-family: Georgia;
+	font-style: italic; 
+}
+
+#content .link-category {
+	color: #663333 !important;
+}
+
+form.searchPage {
+	text-align: left;
+	border: 0px solid black;
+	margin: 20px 0px 0px 0px;
+}
+
+form.searchPage input.searchButton {
+	background: White url("++resource++kk.ck.images/search_icon2.gif.html") no-repeat scroll 5px 0px;
+	padding: 10px 10px 10px 10px;
+	border: 1px dotted !important;
+}
+
+input.searchPage {
+	font-size: 150% !important;
+	margin: 0px 0px 0px 0px;
+}
+
+
+/******************* footer *************************************/
+
+#portal-footer {
+	background: url("++resource++kk.kkh.images/bg_footer.jpg") repeat-x 0px 0px transparent;
+	margin: 0px auto 0px auto;
+	border: 0px solid black;
+	text-align: center;
+	height: 20px !important;
+	width: 752px;
+	display: block;
+	padding: 9px 0px 0px 0px;
+	text-transform: uppercase;
+}
+
+* html #portal-footer {
+	background: transparent;
+	margin: 0px 0px 0px 0px;
+	border: 0px solid white;
+	text-align: right;
+	width: 100%;
+	display: block;
+	padding: 0px 0px 0px 0px;
+}
+
+.footer-wrapper {
+	border: 0px solid red;
+	padding: 0px 0px 0px 0px;
+	background: transparent;
+	font-size: 80%;
+	text-align: center;
+}
+
+* html .footer-wrapper {
+	border: 0px solid red;
+	padding: 20px 0px 0px 0px;
+	background: url("++resource++kk.kkh.images/bg_footer.jpg") repeat-x 0px 0px transparent;
+	font-size: 75%;
+}
+
+*+html .footer-wrapper {
+	border: 0px solid red;
+	padding: 20px 0px 0px 0px;
+	background: url("++resource++kk.kkh.images/bg_footer.jpg") repeat-x 0px 0px transparent;
+	font-size: 75%;
+}
+
+#portal-footer a:link {
+	color: white;
+	font-size: 100%;
+	text-decoration: none;
+}
+
+#portal-footer a:visited {
+	color: white;
+	font-size: 100%; 
+	text-decoration: none;
+}
+
+#portal-footer a:hover {
+	color: white;
+	font-size: 100%;
+	text-decoration: none;
+}
+
+#portal-colophon {
+	display: none;
+}
+
+/* </dtml-with> */
+
+/* Latest version of the documentation on pre-defined properties from Plone 
+   can be found in CMFPlone/skins/plone_styles/ploneCustom.css.dtml */
+
+
+

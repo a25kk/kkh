@@ -1,0 +1,365 @@
+
+/* - portlets.css - */
+@media screen {
+/*  (do not remove this :) */
+/*  (not this either :) */
+
+/* Fallback for edit screen if both columns are hidden */
+.managePortletsFallback {
+    margin: 0 0 0 1em;
+}
+
+/* Main portlet elements */
+.portlet {
+    margin: 0px 0px 10px 0px;
+    border-bottom: 0px;
+    background-color: transparent;
+    border: 0px dotted #663333;
+    padding: 0px;
+}
+.portlet a {
+    text-decoration: none;
+}
+.portlet a.tile {
+    display: block;
+}
+
+.portletItem ul {
+    list-style-type: none
+}
+
+/** @rounded corners for region-content and portlets **/
+
+.portletHeader,
+.portletFooter,
+.portletItem,
+.lastItem {
+    position: relative!important;
+    border: 0px;
+}
+
+.lastItem {
+	padding: 0px 0px 20px 0px !important;
+	border: 0px solid black;
+}
+
+.portletItem p {
+	padding: 5px 0px 5px 0px;
+	margin: 0px;
+}
+
+.portletItem a,
+.portletFooter a {
+    border-bottom: none;
+}
+
+.portletItem a:visited,
+.portletFooter a:visited {
+    color: #663333;
+}
+.portletHeader, .managedPortlet .portletHeader {
+    background: url("++resource++kk.ck.images/grey_arrow.gif.html") no-repeat 0px 7px transparent;
+    border: 0px;
+    padding: 0px 0px 5px 0px;
+    text-transform: none;
+    font-weight: bold;
+    line-height: 1.6em;
+    height: 20px;
+	margin: 0px;
+	font-family: Georgia;
+	font-style: italic;
+	font-size: 120%;
+	color: #666666;
+}
+.portletHeader a, .managedPortlet .portletHeader a {
+    color: #663333;
+}
+.portletItem {
+    margin: 0px 0px 3px 0px;
+    padding: 10px;
+    border: 1px dotted #663333;
+}
+.portletItem ol {
+    margin: 0 0 0 1em;
+}
+.portletItemDetails {
+    text-align: right;
+    display: block;
+    color: black;
+	font-size: 80%;
+}
+.portletFooter {
+    background: transparent;
+    margin: 0;
+    padding: 0.25em 1em;
+    border: 0px;
+    text-align: right;
+    height: 20px;
+}
+
+
+
+/**@ manage-portlets link **/
+
+.managePortletsLink {
+    text-align: center;
+    background: white;
+}
+
+div.portlets-manager div.section {
+    padding-top: 1em !important;
+}
+
+div.managedPortlet {
+    padding-top:0.5em;
+    padding-bottom:0.5em;
+    background-color: transparent;
+}
+
+.managedPortlet .portletHeader {
+    min-height: 3em !important;
+}
+
+.managedPortlet a {
+    text-decoration: underline;
+}
+
+.managedPortletActions {
+    display:block;
+    float:right;
+}
+
+.managedPortletActions a {
+    text-decoration: none;
+}
+
+.managedPortletActions a.up,
+.managedPortletActions a.down {
+    color:blue !important;
+}
+
+.managedPortletActions a.delete {
+    color:red !important;
+}
+
+/* Table of Contents styling - essentially a portlet with smaller fonts and aligned right + limited in width */
+.toc {
+    float: right;
+    width: 30%;
+    font-size: 90%;
+    margin: 0 0 0.5em 0.5em;
+}
+
+.toc .TOC1Digit {
+    margin-left: 1em;
+}
+
+.toc .TOC2Digit {
+    margin-left: 2em;
+}
+
+.toc .TOC3Digit {
+    margin-left: 3em;
+}
+
+/* Static text portlet */
+.portletStaticText ul {
+    list-style-image: url("../../bullet.gif");
+    list-style-type: square; 
+    margin: 0.5em 0 0 1.5em;
+}
+
+.portletStaticText ol {
+    margin: 0.5em 0 0 2em;
+}
+
+/* LiveSearch portlet tweaks, since positioning changes */
+#portal-column-one fieldset.livesearchContainer {
+    right: inherit !important;
+    top: 1.5em !important;
+}
+
+/* New navtree styles */
+
+.portletNavigationTree {
+    padding: 0; 
+    list-style: none !important;
+    list-style-image: none !important; 
+    line-height: 1em;
+	background: transparent;
+}
+
+.portletNavigationTree .portletItem  {
+	background: transparent;
+	border: 0px !important;
+}
+
+.portletNavigationTree .lastItem {
+	padding: 0px 0px 0px 0px !important;
+	border: 0px solid black;
+}
+
+.portletNavigationTree .portletFooter {
+	background: url("++resource++kk.ck.images/bg_portlet_footer.gif.html") no-repeat bottom right transparent;
+ 	margin: 0px 0px 0px 0px; 
+	padding: 0px;
+	border: 0px !important;
+	height: 25px;
+}
+ 
+.navTree {
+    list-style: none; 
+    list-style-image: none; 
+    margin-top: 1px;
+}
+.navTree li {
+    margin-bottom: 5px !important;
+	border: 1px dotted;
+	border-width: 0px 0px 1px 0px;
+}
+
+.navTreeItem {
+    display: block;
+    padding: 0;
+    margin: 0;
+	font-size: 90%;
+	font-weight: bold;
+}
+.navTreeItem a,
+dd.portletItem .navTreeItem a {
+    border: 0px !important;
+    display: block;
+    text-decoration: none;
+	padding: 0px 0px 0px 10px;
+	background: url("++resource++kk.ck.images/red_arrow.gif.html") no-repeat 0px 6px transparent !important; 
+	color: black;
+	margin: 0px 0px 3px 0px;
+	font-weight: normal;
+
+} 
+
+.navTreeItem a img,
+dd.portletItem .navTreeItem a img {
+    display: none;
+}
+
+
+.navTreeItem a:hover,
+dd.portletItem .navTreeItem a:hover {
+	background: url("++resource++kk.ck.images/red_arrow.gif.html") no-repeat 0px 6px transparent !important; 
+    border: 0px solid #333399;
+}
+.navTreeCurrentItem {
+    background-color: #91b0be;
+    color: white;
+    border: 0px solid #cccccc !important;
+}
+
+li.navTreeCurrentItem {
+    display: block;
+    padding: 0 0 0 1px;
+    margin: 0 0 2px -1px;
+}
+
+
+li.navTreeCurrentItem a,
+li.navTreeCurrentItem a:hover {
+    display: block;
+    border: 1px solid #333399;
+    min-height: 1.6em;
+    line-height: 1.6em;
+    height: auto;
+	background: url("++resource++kk.ck.images/red_arrow.gif.html") repeat-y 0px 0px #663333 !important;
+}
+
+.navTreeItem a.selected,
+dd.portletItem .navTreeItem a.selected {
+    display: block;
+    border: 0px solid #333399 !important;
+    height: auto;
+	background: url("++resource++kk.ck.images/red_arrow.gif.html") repeat-y 0px 0px #663333 !important;
+}
+
+/* Another workaround for broken Internet Explorer */
+* html li.navTreeCurrentItem a,
+* html li.navTreeCurrentItem a:hover {
+    height: 1.6em;
+}
+
+.navTreeLevel0 { 
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.navTreeLevel1 { 
+	margin: 0px 0px 0px 0px;
+	font-size: 90%;
+	padding: 0px 0px 0px 0px;
+	text-transform: none;
+	}
+	
+.navTreeLevel2 { 	
+	margin: 5px 20px 5px 0px;
+	font-size: 90%;
+	}
+
+.navTreeLevel3 { 	
+	margin: 5px 20px 5px 0px;
+	font-size: 90%;
+	}
+
+/*  */ 
+
+#portlet-adsense .portletItem { 
+	border: 1px dotted #CCCCCC;
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+}
+
+.ploneCalendar {
+	width: 100%;
+	font-family: Georgia;
+	font-style: italic;
+}
+
+.ploneCalendar tr {
+	text-align: center;
+}
+
+.even { 
+	background: transparent !important;
+	padding: 10px;
+}
+
+#portal-sitemap {
+	font-family: Georgia;
+	font-style: italic;
+	font-size: 100%;
+}
+
+#portal-sitemap a:link {
+	border: 0px solid white;
+	background: transparent !important;
+	color: #663333;
+}
+
+#portal-sitemap a:visited {
+	border: 0px solid white;
+	background: transparent !important;
+	color: #663333;
+}
+
+#portal-sitemap a:hover {
+	border: 0px solid white;
+	background: transparent !important;
+	color: #663333 !important;
+}
+
+.portletSearch .portletFooter {
+	display: none;
+}
+
+/*  */
+
+}
+

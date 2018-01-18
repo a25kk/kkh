@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+PRODID:-//AT Content Types//AT Event//EN
+VERSION:2.0
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTAMP:20180109T113511Z
+CREATED:20100712T172146Z
+UID:ATEvent-83d97cb0bacbc0e8dd3b57b2d7c77513
+LAST-MODIFIED:20121210T100603Z
+SUMMARY:29.01.2011 Vöhringen
+DTSTART:20110129T190000Z
+DTEND:20110129T213000Z
+DESCRIPTION:Konzert Talisman (UA/RU/DE/SPA) New Gypsy Art (neue Zigeun
+ erkunst\, neue Entwicklung der Roma - Kultur)\n\nDas Ensemble ist beka
+ nnt als Schmelztiegel aus Gypsymusik\, Klassik\, Jazz\, Flamenco\, Ori
+ ental-\, Fado und Avantgarde. Die drei Vollblutmusiker mit Leib und Se
+ ele erobern mit ihrer New Gypsy Art das Publikum im Sturm und entzünd
+ en dabei ein Feuerwerk mit Musik\, die nach ferner russischer Heimat k
+ lingt\, immer ein bisschen sehnsuchtsvoll und doch feurig und heiter i
+ st. Mal heulen\, knarzen und spuken sie durch ein verlassenes Haus\, m
+ al streuen sie in arabische Gesangsfloskeln jazzige Scat-Silben\, paar
+ en voller Cafehaus-Charme raffiniert Walzer mit Tango oder heizen folk
+ -typische Roma-Melodik in "Gypsy Karawane" mit Paprika-Feuer bis zur E
+ kstase auf.
+LOCATION:"Wolfgang Eyckmüller Haus"
+CLASS:PUBLIC
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+PRODID:-//AT Content Types//AT Event//EN
+VERSION:1.0
+BEGIN:VEVENT
+DTSTART:20110128T190000Z
+DTEND:20110128T213000Z
+DCREATED:20100712T171723Z
+UID:ATEvent-44af38f7a676c6fd8a5ccdeaca9690f8
+SEQUENCE:0
+LAST-MODIFIED:20121210T100547Z
+SUMMARY:28.01.2011 Affoltern
+DESCRIPTION:Konzert Talisman (UA/RU/DE/SPA) New Gypsy Art (neue Zigeun
+ erkunst\, neue Entwicklung der Roma - Kultur)\n\nDas Ensemble ist beka
+ nnt als Schmelztiegel aus Gypsymusik\, Klassik\, Jazz\, Flamenco\, Ori
+ ental-\, Fado und Avantgarde. Die drei Vollblutmusiker mit Leib und Se
+ ele erobern mit ihrer New Gypsy Art das Publikum im Sturm und entzünd
+ en dabei ein Feuerwerk mit Musik\, die nach ferner russischer Heimat k
+ lingt\, immer ein bisschen sehnsuchtsvoll und doch feurig und heiter i
+ st. Mal heulen\, knarzen und spuken sie durch ein verlassenes Haus\, m
+ al streuen sie in arabische Gesangsfloskeln jazzige Scat-Silben\, paar
+ en voller Cafehaus-Charme raffiniert Walzer mit Tango oder heizen folk
+ -typische Roma-Melodik in "Gypsy Karawane" mit Paprika-Feuer bis zur E
+ kstase auf.
+LOCATION:"La Marotte"
+PRIORITY:3
+TRANSP:0
+END:VEVENT
+END:VCALENDAR

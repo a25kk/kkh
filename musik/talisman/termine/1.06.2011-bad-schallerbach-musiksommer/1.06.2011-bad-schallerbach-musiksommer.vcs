@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+PRODID:-//AT Content Types//AT Event//EN
+VERSION:1.0
+BEGIN:VEVENT
+DTSTART:20110601T180000Z
+DTEND:20110601T203000Z
+DCREATED:20100712T170422Z
+UID:ATEvent-4cc1123d9724869b906afa6c0ce49e9f
+SEQUENCE:0
+LAST-MODIFIED:20100712T170439Z
+SUMMARY:1.06.2011 Bad Schallerbach "Musiksommer"
+DESCRIPTION:Konzert Talisman (UA/RU/DE/SPA) New Gypsy Art (neue Zigeun
+ erkunst\, neue Entwicklung der Roma - Kultur)\n\nDas Ensemble ist beka
+ nnt als Schmelztiegel aus Gypsymusik\, Klassik\, Jazz\, Flamenco\, Ori
+ ental-\, Fado und Avantgarde. Die drei Vollblutmusiker mit Leib und Se
+ ele erobern mit ihrer New Gypsy Art das Publikum im Sturm und entzünd
+ en dabei ein Feuerwerk mit Musik\, die nach ferner russischer Heimat k
+ lingt\, immer ein bisschen sehnsuchtsvoll und doch feurig und heiter i
+ st. Mal heulen\, knarzen und spuken sie durch ein verlassenes Haus\, m
+ al streuen sie in arabische Gesangsfloskeln jazzige Scat-Silben\, paar
+ en voller Cafehaus-Charme raffiniert Walzer mit Tango oder heizen folk
+ -typische Roma-Melodik in "Gypsy Karawane" mit Paprika-Feuer bis zur E
+ kstase auf.
+PRIORITY:3
+TRANSP:0
+END:VEVENT
+END:VCALENDAR
